@@ -52,6 +52,8 @@ require('lazy').setup({
 
   -- Useful plugin to show you pending keybinds.
   { 'folke/which-key.nvim', opts = {} },
+  { 'nvim-tree/nvim-tree.lua' },
+  { 'nvim-tree/nvim-web-devicons' },
   {
     -- Adds git related signs to the gutter, as well as utilities for managing changes
     'lewis6991/gitsigns.nvim',
